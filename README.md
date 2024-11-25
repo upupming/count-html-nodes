@@ -11,7 +11,7 @@ npm install count-html-nodes
 ## Usage
 
 ```javascript
-const countHtmlNodes = require('count-html-nodes');
+const { countHtmlNodes } = require('count-html-nodes');
 const fs = require('fs');
 const filePath = '/path/to/your/file.html';
 const html = fs.readFileSync(filePath, 'utf8');
